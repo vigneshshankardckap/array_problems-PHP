@@ -1,7 +1,7 @@
 <?php
 
 
-$num=(int)readline("please enter the factorial number :"." ");
+$num=(int)readline("please enter the  number :"." ");
 
 
 function factorial($num){
@@ -12,7 +12,7 @@ function factorial($num){
 
         $factorial=$factorial*$i;
     }
-    echo $factorial ."\n";
+    echo $factorial." is the factorial number "."\n";
 }
 factorial($num);
 
