@@ -19,3 +19,17 @@ $values = array(
 $keyValue=array_combine($keys,$values);
 
 print_r($keyValue);
+
+// ============another methhod using loop =============
+
+$result=[];
+$keyOne=array_keys($keys);
+$keyTwo=array_keys($values);
+
+
+for($i=0;$i<count($keyOne);$i++){
+
+    $result[$keys[$keyOne[$i]]]=$values[$keyTwo[$i]];
+}
+print_r($result);
+
